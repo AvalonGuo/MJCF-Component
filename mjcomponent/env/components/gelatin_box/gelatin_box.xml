@@ -1,0 +1,20 @@
+<mujoco model="gelatin_box">
+  <compiler angle="radian" meshdir="assets" texturedir="assets"/>
+    <default>
+        <default class="ycb_col">
+            <geom contype="1" conaffinity="1" group="3" rgba=".4 .5 .6 1"/>
+        </default>
+        <default class="ycb_viz">
+            <geom contype="0" conaffinity="0" type="mesh" mass="0"/>
+        </default>
+    </default>
+    <asset>
+        <mesh name="009_gelatin_box" file="009_gelatin_box.msh" scale="1 1 1"/>
+        <texture name="009_gelatin_box" type="2d" file="009_gelatin_box.png"/>
+        <material name="009_gelatin_box" texture="009_gelatin_box"/>
+    </asset>
+  <worldbody>
+    <geom class="ycb_viz" mesh="009_gelatin_box" size=".1 .1" pos="0.025 0.003 0.00" euler="0 0 -.25" material="009_gelatin_box"/>
+    <geom class="ycb_col" type="box" size=".036 .044 .014" pos="0 0 .014" mass="0.097"/>
+  </worldbody>
+</mujoco>

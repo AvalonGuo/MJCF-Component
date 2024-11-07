@@ -1,0 +1,20 @@
+<mujoco model="tomato_soup_can">
+  <compiler angle="radian" meshdir="assets" texturedir="assets"/>
+    <default>
+        <default class="ycb_col">
+            <geom contype="1" conaffinity="1" group="3" rgba=".4 .5 .6 1"/>
+        </default>
+        <default class="ycb_viz">
+            <geom contype="0" conaffinity="0" type="mesh" mass="0"/>
+        </default>
+    </default>
+    <asset>
+        <mesh name="005_tomato_soup_can" file="005_tomato_soup_can.msh" scale="1 1 1"/>
+        <texture name="005_tomato_soup_can" type="2d" file="005_tomato_soup_can.png"/>
+        <material name="005_tomato_soup_can" texture="005_tomato_soup_can"/>
+    </asset>
+  <worldbody>
+    <geom class="ycb_viz" mesh="005_tomato_soup_can" pos="0.01 -.084 -.002" material="005_tomato_soup_can"/>
+    <geom class="ycb_col" type="cylinder" size=".033 .05" pos="0 0 .05" mass="0.349"/>
+  </worldbody>
+</mujoco>

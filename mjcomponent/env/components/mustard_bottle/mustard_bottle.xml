@@ -1,0 +1,20 @@
+<mujoco model="mustard_bottle">
+  <compiler angle="radian" meshdir="assets" texturedir="assets"/>
+    <default>
+        <default class="ycb_col">
+            <geom contype="1" conaffinity="1" group="3" rgba=".4 .5 .6 1"/>
+        </default>
+        <default class="ycb_viz">
+            <geom contype="0" conaffinity="0" type="mesh" mass="0"/>
+        </default>
+    </default>
+    <asset>
+        <mesh name="006_mustard_bottle" file="006_mustard_bottle.msh" scale="1 1 1"/>
+        <texture name="006_mustard_bottle" type="2d" file="006_mustard_bottle.png"/>
+        <material name="006_mustard_bottle" texture="006_mustard_bottle"/>
+    </asset>
+  <worldbody>
+    <geom class="ycb_viz" mesh="006_mustard_bottle" pos="0.014 0.014 0.002" material="006_mustard_bottle"/>
+    <geom class="ycb_col" type="mesh" mesh="006_mustard_bottle" pos="0.014 0.014 0.002" mass="0.431"/>
+  </worldbody>
+</mujoco>

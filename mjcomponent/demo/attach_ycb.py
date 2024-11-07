@@ -1,0 +1,25 @@
+from mjcomponent.scene import BasicScene
+from mjcomponent.env import *
+
+env = BasicScene()
+power_drill = Power_drill()
+potted_meat_can =Potted_meat_can()
+gelatin_box = Gelatin_box()
+pudding_box = Pudding_box()
+tuna_fish_can = Tuna_fish_can()
+mustard_bottle = Mustard_bottle()
+tomato_soup_can = Tomato_soup_can()
+cracker_box = Cracker_box()
+master_chef_can = Master_chef_can()
+env.attach_objects(power_drill.mjcf_root)
+env.attach_objects(potted_meat_can.mjcf_root,[0.2,0,0])
+env.attach_objects(gelatin_box.mjcf_root,[0.4,0,0])
+env.attach_objects(pudding_box.mjcf_root,[0,-0.2,0])
+env.attach_objects(tuna_fish_can.mjcf_root,[0,-0.4,0])
+env.attach_objects(mustard_bottle.mjcf_root,[0,0.2,0])
+env.attach_objects(tomato_soup_can.mjcf_root,[0,0.4,0])
+env.attach_objects(master_chef_can.mjcf_root,[0,0.6,0])
+env.attach_objects(cracker_box.mjcf_root,[0,-0.6,0])
+env.initialize()
+while True:
+    env.step_simulation()

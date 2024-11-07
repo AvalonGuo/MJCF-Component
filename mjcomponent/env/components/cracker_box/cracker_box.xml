@@ -1,0 +1,20 @@
+<mujoco model="cracker_box">
+  <compiler angle="radian" meshdir="assets" texturedir="assets"/>
+    <default>
+        <default class="ycb_col">
+            <geom contype="1" conaffinity="1" group="3" rgba=".4 .5 .6 1"/>
+        </default>
+        <default class="ycb_viz">
+            <geom contype="0" conaffinity="0" type="mesh" mass="0"/>
+        </default>
+    </default>
+    <asset>
+        <mesh name="003_cracker_box" file="003_cracker_box.msh" scale="1 1 1"/>
+        <texture name="003_cracker_box" type="2d" file="003_cracker_box.png"/>
+        <material name="003_cracker_box" texture="003_cracker_box"/>
+    </asset>
+  <worldbody>
+    <geom class="ycb_viz" mesh="003_cracker_box" pos="0.014 0.014 0.002" material="003_cracker_box"/>
+    <geom class="ycb_col" type="box" size=".033 .08 .105" pos="0 0 .105" mass="0.453"/>
+  </worldbody>
+</mujoco>

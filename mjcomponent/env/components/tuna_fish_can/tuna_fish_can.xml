@@ -1,0 +1,20 @@
+<mujoco model="tuna_fish_can">
+  <compiler angle="radian" meshdir="assets" texturedir="assets"/>
+    <default>
+        <default class="ycb_col">
+            <geom contype="1" conaffinity="1" group="3" rgba=".4 .5 .6 1"/>
+        </default>
+        <default class="ycb_viz">
+            <geom contype="0" conaffinity="0" type="mesh" mass="0"/>
+        </default>
+    </default>
+    <asset>
+        <mesh name="007_tuna_fish_can" file="007_tuna_fish_can.msh" scale="1 1 1"/>
+        <texture name="007_tuna_fish_can" type="2d" file="007_tuna_fish_can.png"/>
+        <material name="007_tuna_fish_can" texture="007_tuna_fish_can"/>
+    </asset>
+  <worldbody>
+    <geom class="ycb_viz" mesh="007_tuna_fish_can" pos="0.026 0.022 0.002" material="007_tuna_fish_can"/>
+    <geom class="ycb_col" type="cylinder" size=".042 .016" pos="0 0 0.016" mass="0.171"/>
+  </worldbody>
+</mujoco>

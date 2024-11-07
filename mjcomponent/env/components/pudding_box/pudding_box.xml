@@ -1,0 +1,20 @@
+<mujoco model="pudding_box">
+  <compiler angle="radian" meshdir="assets" texturedir="assets"/>
+    <default>
+        <default class="ycb_col">
+            <geom contype="1" conaffinity="1" group="3" rgba=".4 .5 .6 1"/>
+        </default>
+        <default class="ycb_viz">
+            <geom contype="0" conaffinity="0" type="mesh" mass="0"/>
+        </default>
+    </default>
+    <asset>
+        <mesh name="008_pudding_box" file="008_pudding_box.msh" scale="1 1 1"/>
+        <texture name="008_pudding_box" type="2d" file="008_pudding_box.png"/>
+        <material name="008_pudding_box" texture="008_pudding_box"/>
+    </asset>
+  <worldbody>
+    <geom class="ycb_viz" mesh="008_pudding_box" pos="0.016 -.01 0.0" euler="-.04 0 1.09" material="008_pudding_box"/>
+    <geom class="ycb_col" type="box" size=".045 .055 .018" pos="0 0 .018" mass="0.187"/>
+  </worldbody>
+</mujoco>

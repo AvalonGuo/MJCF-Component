@@ -1,0 +1,20 @@
+<mujoco model="potted_meat_can">
+  <compiler angle="radian" meshdir="assets" texturedir="assets"/>
+    <default>
+        <default class="ycb_col">
+            <geom contype="1" conaffinity="1" group="3" rgba=".4 .5 .6 1"/>
+        </default>
+        <default class="ycb_viz">
+            <geom contype="0" conaffinity="0" type="mesh" mass="0"/>
+        </default>
+    </default>
+    <asset>
+        <mesh name="010_potted_meat_can" file="010_potted_meat_can.msh" scale="1 1 1"/>
+        <texture name="010_potted_meat_can" type="2d" file="010_potted_meat_can.png"/>
+        <material name="010_potted_meat_can" texture="010_potted_meat_can"/>
+    </asset>
+  <worldbody>
+    <geom class="ycb_viz" mesh="010_potted_meat_can" size=".1 .1" pos="0.034 0.025 0.002" euler="0 0 -.05" material="010_potted_meat_can"/>
+    <geom class="ycb_col" type="box" size=".048 .026 .041" pos="0 0 .041" mass="0.370"/>
+  </worldbody>
+</mujoco>

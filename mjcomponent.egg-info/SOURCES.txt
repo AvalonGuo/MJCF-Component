@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+mjcomponent.egg-info/PKG-INFO
+mjcomponent.egg-info/SOURCES.txt
+mjcomponent.egg-info/dependency_links.txt
+mjcomponent.egg-info/requires.txt
+mjcomponent.egg-info/top_level.txt
