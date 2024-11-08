@@ -5,4 +5,6 @@ MJCF-Component is a mechanism that allows you to add objects to an MJCF model fr
 ## How to use？
 ```
 git clone https://github.com/AvalonGuo/MJCF-Component.git
+cd MJCF-Component
+python3 -m 
 ```
