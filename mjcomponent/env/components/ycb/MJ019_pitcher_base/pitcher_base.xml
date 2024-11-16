@@ -1,0 +1,51 @@
+<mujoco model="pitcher_base">
+  <compiler angle="radian" meshdir="assets" texturedir="assets"/>
+    <default>
+        <default class="ycb_col">
+            <geom contype="1" conaffinity="1" group="3" rgba=".4 .5 .6 1"/>
+        </default>
+        <default class="ycb_viz">
+            <geom contype="0" conaffinity="0" type="mesh" mass="0"/>
+        </default>
+    </default>
+  <asset>
+    <texture type="2d" name="pitcher_base_tex" file="texture_map.png"/>
+    <material name="pitcher_base_mat" texture="pitcher_base_tex" specular="0.5" shininess="0.5"/>
+    <mesh file="textured.obj" name="pitcher_base"/>
+    <mesh file="textured_collision_0.obj" name="pitcher_base_collision_0"/>
+    <mesh file="textured_collision_1.obj" name="pitcher_base_collision_1"/>
+    <mesh file="textured_collision_2.obj" name="pitcher_base_collision_2"/>
+    <mesh file="textured_collision_3.obj" name="pitcher_base_collision_3"/>
+    <mesh file="textured_collision_4.obj" name="pitcher_base_collision_4"/>
+    <mesh file="textured_collision_5.obj" name="pitcher_base_collision_5"/>
+    <mesh file="textured_collision_6.obj" name="pitcher_base_collision_6"/>
+    <mesh file="textured_collision_7.obj" name="pitcher_base_collision_7"/>
+    <mesh file="textured_collision_8.obj" name="pitcher_base_collision_8"/>
+    <mesh file="textured_collision_9.obj" name="pitcher_base_collision_9"/>
+    <mesh file="textured_collision_10.obj" name="pitcher_base_collision_10"/>
+    <mesh file="textured_collision_11.obj" name="pitcher_base_collision_11"/>
+    <mesh file="textured_collision_12.obj" name="pitcher_base_collision_12"/>
+    <mesh file="textured_collision_13.obj" name="pitcher_base_collision_13"/>
+    <mesh file="textured_collision_14.obj" name="pitcher_base_collision_14"/>
+    <mesh file="textured_collision_15.obj" name="pitcher_base_collision_15"/>
+  </asset>
+  <worldbody>
+      <geom class="ycb_viz" material="pitcher_base_mat" mesh="pitcher_base"/>
+      <geom class="ycb_col" mesh="pitcher_base_collision_0" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.1605841671647502" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom class="ycb_col" mesh="pitcher_base_collision_1" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.03359753200238548" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom class="ycb_col" mesh="pitcher_base_collision_2" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.009815902875315419" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom class="ycb_col" mesh="pitcher_base_collision_3" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0003790973067620127" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom class="ycb_col" mesh="pitcher_base_collision_4" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.028746980131141766" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom class="ycb_col" mesh="pitcher_base_collision_5" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0013981388278633592" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom class="ycb_col" mesh="pitcher_base_collision_6" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0015279741386285564" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom class="ycb_col" mesh="pitcher_base_collision_7" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0013515325292739202" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom class="ycb_col" mesh="pitcher_base_collision_8" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0008607956328913917" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom class="ycb_col" mesh="pitcher_base_collision_9" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0012033859067137364" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom class="ycb_col" mesh="pitcher_base_collision_10" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0003973458300948034" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom class="ycb_col" mesh="pitcher_base_collision_11" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0009642756309378512" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom class="ycb_col" mesh="pitcher_base_collision_12" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0009905115204300087" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom class="ycb_col" mesh="pitcher_base_collision_13" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.000508028912590876" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom class="ycb_col" mesh="pitcher_base_collision_14" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0014550434519958505" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom class="ycb_col" mesh="pitcher_base_collision_15" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0002192881382247396" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+  </worldbody>
+</mujoco>

@@ -15,7 +15,9 @@
     <mesh file="textured_collision_0.obj" name="sugar_box_collision_0"/>
   </asset>
   <worldbody>
+
     <geom class="ycb_viz" material="sugar_box_mat" mesh="sugar_box" />
     <geom class="ycb_col" mesh="sugar_box_collision_0" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.514" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+
   </worldbody>
 </mujoco>

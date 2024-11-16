@@ -8,9 +8,23 @@ from .components.ycb.MJ008_pudding_box.pudding_box import *
 from .components.ycb.MJ009_gelatin_box.gelatin_box import *
 from .components.ycb.MJ010_potted_meat_can.potted_meat_can import *
 from .components.ycb.MJ011_banana.banana import *
+from .components.ycb.MJ012_strawberry.strawberry import *
+from .components.ycb.MJ013_apple.apple import *
+from .components.ycb.MJ014_lemon.lemon import *
+from .components.ycb.MJ015_peach.peach import *
+from .components.ycb.MJ016_pear.pear import *
+from .components.ycb.MJ017_orange.orange import *
+from .components.ycb.MJ018_plum.plum import *
+from .components.ycb.MJ019_pitcher_base.pitcher_base import *
+from .components.ycb.MJ021_bleach_cleanser.bleach_cleanser import *
+from .components.ycb.MJ024_bowl.bowl import *
+from .components.ycb.MJ025_mug.mug import *
+from .components.ycb.MJ026_sponge.sponge import *
+from .components.ycb.MJ029_plate.plate import *
+from .components.ycb.MJ030_fork.fork import *
+from .components.ycb.MJ031_spoon.spoon import *
+from .components.ycb.MJ032_knife.knife import *
+from .components.ycb.MJ033_spatula.spatula import *
 from .components.ycb.MJ035_power_drill.power_drill import *
-
-
-
 
 

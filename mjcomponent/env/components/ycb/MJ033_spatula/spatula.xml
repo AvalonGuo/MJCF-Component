@@ -1,0 +1,53 @@
+<mujoco model="spatula">
+  <compiler angle="radian" meshdir="assets" texturedir="assets"/>
+    <default>
+        <default class="ycb_col">
+            <geom contype="1" conaffinity="1" group="3" rgba=".4 .5 .6 1"/>
+        </default>
+        <default class="ycb_viz">
+            <geom contype="0" conaffinity="0" type="mesh" mass="0"/>
+        </default>
+    </default>
+  <asset>
+    <texture type="2d" name="spatula_tex" file="texture_map.png"/>
+    <material name="spatula_mat" texture="spatula_tex" specular="0.5" shininess="0.5"/>
+    <mesh file="textured.obj" name="spatula"/>
+    <mesh file="textured_collision_0.obj" name="spatula_collision_0"/>
+    <mesh file="textured_collision_1.obj" name="spatula_collision_1"/>
+    <mesh file="textured_collision_2.obj" name="spatula_collision_2"/>
+    <mesh file="textured_collision_3.obj" name="spatula_collision_3"/>
+    <mesh file="textured_collision_4.obj" name="spatula_collision_4"/>
+    <mesh file="textured_collision_5.obj" name="spatula_collision_5"/>
+    <mesh file="textured_collision_6.obj" name="spatula_collision_6"/>
+    <mesh file="textured_collision_7.obj" name="spatula_collision_7"/>
+    <mesh file="textured_collision_8.obj" name="spatula_collision_8"/>
+    <mesh file="textured_collision_9.obj" name="spatula_collision_9"/>
+    <mesh file="textured_collision_10.obj" name="spatula_collision_10"/>
+    <mesh file="textured_collision_11.obj" name="spatula_collision_11"/>
+    <mesh file="textured_collision_12.obj" name="spatula_collision_12"/>
+    <mesh file="textured_collision_13.obj" name="spatula_collision_13"/>
+    <mesh file="textured_collision_14.obj" name="spatula_collision_14"/>
+    <mesh file="textured_collision_15.obj" name="spatula_collision_15"/>
+    <mesh file="textured_collision_16.obj" name="spatula_collision_16"/>
+  </asset>
+  <worldbody>
+      <geom material="spatula_mat" mesh="spatula" class="ycb_viz"/>
+      <geom mesh="spatula_collision_0" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.01982220587029568" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="spatula_collision_1" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0012730433099191708" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="spatula_collision_2" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.009465509727890238" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="spatula_collision_3" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.006500845858492708" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="spatula_collision_4" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0005366387743851351" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="spatula_collision_5" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.00040576681149071274" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="spatula_collision_6" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0008119246222845106" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="spatula_collision_7" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0010732553388675978" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="spatula_collision_8" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0049419529563180555" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="spatula_collision_9" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0039001756270374503" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="spatula_collision_10" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.00043770981045705617" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="spatula_collision_11" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0007169972215505198" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="spatula_collision_12" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.00014750990812046808" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="spatula_collision_13" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.00028507188598392763" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="spatula_collision_14" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0001798729426973348" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="spatula_collision_15" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0006491840328327421" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="spatula_collision_16" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0003523353013766874" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+  </worldbody>
+</mujoco>

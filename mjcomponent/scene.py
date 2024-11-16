@@ -30,7 +30,7 @@ class BasicScene:
 
     def step_simulation(self):
         if self.viewer == None and self.render_mode == "human":
-            self.viewer = mujoco.viewer.launch_passive(model=self.model,data=self.data,show_left_ui=False,show_right_ui=False)
+            self.viewer = mujoco.viewer.launch_passive(model=self.model,data=self.data,show_left_ui=True,show_right_ui=True)
         step_start = time.time()
         mujoco.mj_step(self.model,self.data)
         if self.viewer != None:
