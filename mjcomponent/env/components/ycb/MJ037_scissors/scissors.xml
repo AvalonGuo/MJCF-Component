@@ -1,0 +1,69 @@
+<mujoco model="scissors">
+  <compiler angle="radian" meshdir="assets" texturedir="assets"/>
+    <default>
+        <default class="ycb_col">
+            <geom contype="1" conaffinity="1" group="3" rgba=".4 .5 .6 1"/>
+        </default>
+        <default class="ycb_viz">
+            <geom contype="0" conaffinity="0" type="mesh" mass="0"/>
+        </default>
+    </default>
+  <asset>
+    <texture type="2d" name="scissors_tex" file="texture_map.png"/>
+    <material name="scissors_mat" texture="scissors_tex" specular="0.5" shininess="0.5"/>
+    <mesh file="textured.obj" name="scissors"/>
+    <mesh file="textured_collision_0.obj" name="scissors_collision_0"/>
+    <mesh file="textured_collision_1.obj" name="scissors_collision_1"/>
+    <mesh file="textured_collision_2.obj" name="scissors_collision_2"/>
+    <mesh file="textured_collision_3.obj" name="scissors_collision_3"/>
+    <mesh file="textured_collision_4.obj" name="scissors_collision_4"/>
+    <mesh file="textured_collision_5.obj" name="scissors_collision_5"/>
+    <mesh file="textured_collision_6.obj" name="scissors_collision_6"/>
+    <mesh file="textured_collision_7.obj" name="scissors_collision_7"/>
+    <mesh file="textured_collision_8.obj" name="scissors_collision_8"/>
+    <mesh file="textured_collision_9.obj" name="scissors_collision_9"/>
+    <mesh file="textured_collision_10.obj" name="scissors_collision_10"/>
+    <mesh file="textured_collision_11.obj" name="scissors_collision_11"/>
+    <mesh file="textured_collision_12.obj" name="scissors_collision_12"/>
+    <mesh file="textured_collision_13.obj" name="scissors_collision_13"/>
+    <mesh file="textured_collision_14.obj" name="scissors_collision_14"/>
+    <mesh file="textured_collision_15.obj" name="scissors_collision_15"/>
+    <mesh file="textured_collision_16.obj" name="scissors_collision_16"/>
+    <mesh file="textured_collision_17.obj" name="scissors_collision_17"/>
+    <mesh file="textured_collision_18.obj" name="scissors_collision_18"/>
+    <mesh file="textured_collision_19.obj" name="scissors_collision_19"/>
+    <mesh file="textured_collision_20.obj" name="scissors_collision_20"/>
+    <mesh file="textured_collision_21.obj" name="scissors_collision_21"/>
+    <mesh file="textured_collision_22.obj" name="scissors_collision_22"/>
+    <mesh file="textured_collision_23.obj" name="scissors_collision_23"/>
+    <mesh file="textured_collision_24.obj" name="scissors_collision_24"/>
+  </asset>
+  <worldbody>
+      <geom material="scissors_mat" mesh="scissors" class="ycb_viz"/>
+      <geom mesh="scissors_collision_0" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.007486870702542704" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="scissors_collision_1" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.004690881882944183" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="scissors_collision_2" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.005597028566266526" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="scissors_collision_3" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.004566343390961925" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="scissors_collision_4" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0077312322118553555" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="scissors_collision_5" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0032707898570665346" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="scissors_collision_6" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0030685635019988564" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="scissors_collision_7" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0011593925226942754" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="scissors_collision_8" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.002046782851610146" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="scissors_collision_9" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.002174380659539347" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="scissors_collision_10" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.001176788444591244" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="scissors_collision_11" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0010787567821885903" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="scissors_collision_12" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0010825265749015202" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="scissors_collision_13" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0012264029625893142" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="scissors_collision_14" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0010329274251345425" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="scissors_collision_15" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.002645206037189079" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="scissors_collision_16" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0009677175064063189" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="scissors_collision_17" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0013997581897735932" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="scissors_collision_18" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.00042672577824452593" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="scissors_collision_19" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.009691655642791763" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="scissors_collision_20" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0026835101631331407" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="scissors_collision_21" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0006432612041966515" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="scissors_collision_22" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0008648940129387566" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="scissors_collision_23" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.01197174329934378" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="scissors_collision_24" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0033158598290973207" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+  </worldbody>
+</mujoco>

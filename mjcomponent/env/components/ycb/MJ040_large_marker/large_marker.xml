@@ -1,0 +1,25 @@
+<mujoco model="large_marker">
+  <compiler angle="radian" meshdir="assets" texturedir="assets"/>
+    <default>
+        <default class="ycb_col">
+            <geom contype="1" conaffinity="1" group="3" rgba=".4 .5 .6 1"/>
+        </default>
+        <default class="ycb_viz">
+            <geom contype="0" conaffinity="0" type="mesh" mass="0"/>
+        </default>
+    </default>
+  <asset>
+    <texture type="2d" name="large_marker_tex" file="texture_map.png"/>
+    <material name="large_marker_mat" texture="large_marker_tex" specular="0.5" shininess="0.5"/>
+    <mesh file="textured.obj" name="large_marker"/>
+    <mesh file="textured_collision_0.obj" name="large_marker_collision_0"/>
+    <mesh file="textured_collision_1.obj" name="large_marker_collision_1"/>
+    <mesh file="textured_collision_2.obj" name="large_marker_collision_2"/>
+  </asset>
+  <worldbody>
+      <geom material="large_marker_mat" mesh="large_marker" class="ycb_viz"/>
+      <geom mesh="large_marker_collision_0" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.012773550179650863" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="large_marker_collision_1" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.003029209406567037" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="large_marker_collision_2" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.00019724041378210223" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+  </worldbody>
+</mujoco>

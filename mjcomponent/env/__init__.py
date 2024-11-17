@@ -26,5 +26,9 @@ from .components.ycb.MJ031_spoon.spoon import *
 from .components.ycb.MJ032_knife.knife import *
 from .components.ycb.MJ033_spatula.spatula import *
 from .components.ycb.MJ035_power_drill.power_drill import *
+from .components.ycb.MJ036_wood_block.wood_block import *
+from .components.ycb.MJ037_scissors.scissors import *
+from .components.ycb.MJ038_padlock.padlock import *
+from .components.ycb.MJ040_large_marker.large_marker import *
 
 
