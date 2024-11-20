@@ -1,0 +1,37 @@
+<mujoco model="hammer">
+  <compiler angle="radian" meshdir="assets" texturedir="assets"/>
+    <default>
+        <default class="ycb_col">
+            <geom contype="1" conaffinity="1" group="3" rgba=".4 .5 .6 1"/>
+        </default>
+        <default class="ycb_viz">
+            <geom contype="0" conaffinity="0" type="mesh" mass="0"/>
+        </default>
+    </default>
+  <asset>
+    <texture type="2d" name="hammer_tex" file="texture_map.png"/>
+    <material name="hammer_mat" texture="hammer_tex" specular="0.5" shininess="0.5"/>
+    <mesh file="textured.obj" name="hammer"/>
+    <mesh file="textured_collision_0.obj" name="hammer_collision_0"/>
+    <mesh file="textured_collision_1.obj" name="hammer_collision_1"/>
+    <mesh file="textured_collision_2.obj" name="hammer_collision_2"/>
+    <mesh file="textured_collision_3.obj" name="hammer_collision_3"/>
+    <mesh file="textured_collision_4.obj" name="hammer_collision_4"/>
+    <mesh file="textured_collision_5.obj" name="hammer_collision_5"/>
+    <mesh file="textured_collision_6.obj" name="hammer_collision_6"/>
+    <mesh file="textured_collision_7.obj" name="hammer_collision_7"/>
+    <mesh file="textured_collision_8.obj" name="hammer_collision_8"/>
+  </asset>
+  <worldbody>
+      <geom material="hammer_mat" mesh="hammer" class="ycb_viz"/>
+      <geom mesh="hammer_collision_0" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.11060843750172736" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="hammer_collision_1" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.3094783644055673" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="hammer_collision_2" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.035814741793345914" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="hammer_collision_3" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.011545735984503314" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="hammer_collision_4" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0111723584335659" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="hammer_collision_5" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.04847150934600305" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="hammer_collision_6" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.047945616337306665" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="hammer_collision_7" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0684807039469665" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="hammer_collision_8" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.044482532251014104" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+  </worldbody>
+</mujoco>

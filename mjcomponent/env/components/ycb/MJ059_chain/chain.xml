@@ -1,0 +1,179 @@
+<mujoco model="chain">
+  <compiler angle="radian" meshdir="assets" texturedir="assets"/>
+    <default>
+        <default class="ycb_col">
+            <geom contype="1" conaffinity="1" group="3" rgba=".4 .5 .6 1"/>
+        </default>
+        <default class="ycb_viz">
+            <geom contype="0" conaffinity="0" type="mesh" mass="0"/>
+        </default>
+    </default>
+  <asset>
+    <texture type="2d" name="chain_tex" file="texture_map.png"/>
+    <material name="chain_mat" texture="chain_tex" specular="0.5" shininess="0.5"/>
+    <mesh file="textured.obj" name="chain"/>
+    <mesh file="textured_collision_0.obj" name="chain_collision_0"/>
+    <mesh file="textured_collision_1.obj" name="chain_collision_1"/>
+    <mesh file="textured_collision_2.obj" name="chain_collision_2"/>
+    <mesh file="textured_collision_3.obj" name="chain_collision_3"/>
+    <mesh file="textured_collision_4.obj" name="chain_collision_4"/>
+    <mesh file="textured_collision_5.obj" name="chain_collision_5"/>
+    <mesh file="textured_collision_6.obj" name="chain_collision_6"/>
+    <mesh file="textured_collision_7.obj" name="chain_collision_7"/>
+    <mesh file="textured_collision_8.obj" name="chain_collision_8"/>
+    <mesh file="textured_collision_9.obj" name="chain_collision_9"/>
+    <mesh file="textured_collision_10.obj" name="chain_collision_10"/>
+    <mesh file="textured_collision_11.obj" name="chain_collision_11"/>
+    <mesh file="textured_collision_12.obj" name="chain_collision_12"/>
+    <mesh file="textured_collision_13.obj" name="chain_collision_13"/>
+    <mesh file="textured_collision_14.obj" name="chain_collision_14"/>
+    <mesh file="textured_collision_15.obj" name="chain_collision_15"/>
+    <mesh file="textured_collision_16.obj" name="chain_collision_16"/>
+    <mesh file="textured_collision_17.obj" name="chain_collision_17"/>
+    <mesh file="textured_collision_18.obj" name="chain_collision_18"/>
+    <mesh file="textured_collision_19.obj" name="chain_collision_19"/>
+    <mesh file="textured_collision_20.obj" name="chain_collision_20"/>
+    <mesh file="textured_collision_21.obj" name="chain_collision_21"/>
+    <mesh file="textured_collision_22.obj" name="chain_collision_22"/>
+    <mesh file="textured_collision_23.obj" name="chain_collision_23"/>
+    <mesh file="textured_collision_24.obj" name="chain_collision_24"/>
+    <mesh file="textured_collision_25.obj" name="chain_collision_25"/>
+    <mesh file="textured_collision_26.obj" name="chain_collision_26"/>
+    <mesh file="textured_collision_27.obj" name="chain_collision_27"/>
+    <mesh file="textured_collision_28.obj" name="chain_collision_28"/>
+    <mesh file="textured_collision_29.obj" name="chain_collision_29"/>
+    <mesh file="textured_collision_30.obj" name="chain_collision_30"/>
+    <mesh file="textured_collision_31.obj" name="chain_collision_31"/>
+    <mesh file="textured_collision_32.obj" name="chain_collision_32"/>
+    <mesh file="textured_collision_33.obj" name="chain_collision_33"/>
+    <mesh file="textured_collision_34.obj" name="chain_collision_34"/>
+    <mesh file="textured_collision_35.obj" name="chain_collision_35"/>
+    <mesh file="textured_collision_36.obj" name="chain_collision_36"/>
+    <mesh file="textured_collision_37.obj" name="chain_collision_37"/>
+    <mesh file="textured_collision_38.obj" name="chain_collision_38"/>
+    <mesh file="textured_collision_39.obj" name="chain_collision_39"/>
+    <mesh file="textured_collision_40.obj" name="chain_collision_40"/>
+    <mesh file="textured_collision_41.obj" name="chain_collision_41"/>
+    <mesh file="textured_collision_42.obj" name="chain_collision_42"/>
+    <mesh file="textured_collision_43.obj" name="chain_collision_43"/>
+    <mesh file="textured_collision_44.obj" name="chain_collision_44"/>
+    <mesh file="textured_collision_45.obj" name="chain_collision_45"/>
+    <mesh file="textured_collision_46.obj" name="chain_collision_46"/>
+    <mesh file="textured_collision_47.obj" name="chain_collision_47"/>
+    <mesh file="textured_collision_48.obj" name="chain_collision_48"/>
+    <mesh file="textured_collision_49.obj" name="chain_collision_49"/>
+    <mesh file="textured_collision_50.obj" name="chain_collision_50"/>
+    <mesh file="textured_collision_51.obj" name="chain_collision_51"/>
+    <mesh file="textured_collision_52.obj" name="chain_collision_52"/>
+    <mesh file="textured_collision_53.obj" name="chain_collision_53"/>
+    <mesh file="textured_collision_54.obj" name="chain_collision_54"/>
+    <mesh file="textured_collision_55.obj" name="chain_collision_55"/>
+    <mesh file="textured_collision_56.obj" name="chain_collision_56"/>
+    <mesh file="textured_collision_57.obj" name="chain_collision_57"/>
+    <mesh file="textured_collision_58.obj" name="chain_collision_58"/>
+    <mesh file="textured_collision_59.obj" name="chain_collision_59"/>
+    <mesh file="textured_collision_60.obj" name="chain_collision_60"/>
+    <mesh file="textured_collision_61.obj" name="chain_collision_61"/>
+    <mesh file="textured_collision_62.obj" name="chain_collision_62"/>
+    <mesh file="textured_collision_63.obj" name="chain_collision_63"/>
+    <mesh file="textured_collision_64.obj" name="chain_collision_64"/>
+    <mesh file="textured_collision_65.obj" name="chain_collision_65"/>
+    <mesh file="textured_collision_66.obj" name="chain_collision_66"/>
+    <mesh file="textured_collision_67.obj" name="chain_collision_67"/>
+    <mesh file="textured_collision_68.obj" name="chain_collision_68"/>
+    <mesh file="textured_collision_69.obj" name="chain_collision_69"/>
+    <mesh file="textured_collision_70.obj" name="chain_collision_70"/>
+    <mesh file="textured_collision_71.obj" name="chain_collision_71"/>
+    <mesh file="textured_collision_72.obj" name="chain_collision_72"/>
+    <mesh file="textured_collision_73.obj" name="chain_collision_73"/>
+    <mesh file="textured_collision_74.obj" name="chain_collision_74"/>
+    <mesh file="textured_collision_75.obj" name="chain_collision_75"/>
+    <mesh file="textured_collision_76.obj" name="chain_collision_76"/>
+    <mesh file="textured_collision_77.obj" name="chain_collision_77"/>
+    <mesh file="textured_collision_78.obj" name="chain_collision_78"/>
+    <mesh file="textured_collision_79.obj" name="chain_collision_79"/>
+  </asset>
+  <worldbody>
+      <geom material="chain_mat" mesh="chain" class="ycb_viz"/>
+      <geom mesh="chain_collision_0" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0014802803539316592" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_1" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0011344914739561652" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_2" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0015344976875064434" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_3" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0009766567937720516" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_4" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0014165457980247335" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_5" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0013539722980720037" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_6" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0014233274744480894" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_7" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0026180443627447955" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_8" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0009329898402134569" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_9" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0005891598595406881" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_10" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0011523525954761126" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_11" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0027677524780112188" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_12" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0022543958947765035" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_13" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0015953845947592753" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_14" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0032071827706791132" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_15" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.001187341034825263" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_16" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0010425288185295398" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_17" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0010490882678585122" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_18" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0009650336852854391" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_19" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0010253609463315853" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_20" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0013141730197346853" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_21" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0007457818020254233" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_22" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0025865969296697527" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_23" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0021671160769240294" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_24" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0009264221456450055" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_25" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0014686001128880117" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_26" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0011191983862108158" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_27" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.001093427804485584" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_28" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0007486254576340382" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_29" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0014333662116817842" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_30" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0011120181597637719" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_31" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0007137768161933297" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_32" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0012620843176927962" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_33" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.001514379295518742" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_34" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0005138698362106623" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_35" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0010831180801605968" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_36" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0009242852344537617" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_37" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0009743500376500956" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_38" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0012149772056546753" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_39" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0017949582767444487" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_40" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0012557981510138434" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_41" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0023063815431801915" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_42" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0009283552760684763" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_43" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.002260653847812894" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_44" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.00044509161105553646" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_45" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0005240948723467213" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_46" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0007873823728907749" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_47" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0010588656129433406" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_48" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0007563267919601327" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_49" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.001028758474417714" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_50" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0005726721901612302" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_51" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0006324394411709131" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_52" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0015321680809969333" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_53" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0006450429888806634" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_54" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.001159361952640747" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_55" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.00039081227806337645" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_56" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.001045065637055845" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_57" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0018370445397010813" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_58" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0006732501757003601" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_59" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0011168117740460992" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_60" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.002517850084815103" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_61" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0009617797844255765" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_62" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0017485538513220056" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_63" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.000987091673825154" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_64" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0003770038420559498" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_65" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0015863387333258279" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_66" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0009554725188467346" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_67" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.001083569731909808" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_68" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.001586207875303778" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_69" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.001608656459805514" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_70" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0014271236346063323" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_71" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0012022214377862487" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_72" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0007179891305512711" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_73" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0005739810184323029" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_74" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0023345289263074927" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_75" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0012072618866609504" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_76" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.00044048411263204247" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_77" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0007546041563954104" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_78" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0008970560185467358" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="chain_collision_79" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0016583352746542329" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+  </worldbody>
+</mujoco>

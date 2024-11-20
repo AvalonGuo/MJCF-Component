@@ -30,5 +30,19 @@ from .components.ycb.MJ036_wood_block.wood_block import *
 from .components.ycb.MJ037_scissors.scissors import *
 from .components.ycb.MJ038_padlock.padlock import *
 from .components.ycb.MJ040_large_marker.large_marker import *
-
+from .components.ycb.MJ042_adjustable_wrench.adjustable_wrench import *
+from .components.ycb.MJ043_phillips_screwdriver.phillips_screwdriver import *
+from .components.ycb.MJ044_flat_screwdriver.flat_screwdriver import *
+from .components.ycb.MJ048_hammer.hammer import *
+from .components.ycb.MJ050_medium_clamp.medium_clamp import *
+from .components.ycb.MJ051_large_clamp.large_clamp import *
+from .components.ycb.MJ052_extra_large_clamp.extra_large_clamp import *
+from .components.ycb.MJ053_mini_soccer_ball.mini_soccer_ball import *
+from .components.ycb.MJ054_softball.softball import *
+from .components.ycb.MJ055_baseball.baseball import *
+from .components.ycb.MJ056_tennis_ball.tennis_ball import *
+from .components.ycb.MJ057_racquetball.racquetball import *
+from .components.ycb.MJ058_golf_ball.golf_ball import *
+from .components.ycb.MJ059_chain.chain import *
+from .components.ycb.MJ061_foam_brick.foam_brick import *
 
