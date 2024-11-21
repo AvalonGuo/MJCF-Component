@@ -10,4 +10,4 @@ pip install -e.
 python3 mjcomponent/demo/attach_ycb.py
 ```
 ## Ycb objects supported
-![Ycb objects supported](mjcomponent/demo/attach_ycb2.png)
+![Ycb objects supported](mjcomponent/demo/attac_ycb2.png)
