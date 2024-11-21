@@ -6,7 +6,8 @@ MJCF-Component is a mechanism that allows you to add objects to an MJCF model fr
 ```
 git clone https://github.com/AvalonGuo/MJCF-Component.git
 cd MJCF-Component
-python3 -m mjcomponent/demo/attach_ycb.py
+pip install -e.
+python3 mjcomponent/demo/attach_ycb.py
 ```
 ## Ycb objects supported
 ![Ycb objects supported](mjcomponent/demo/attach_ycb.png)
