@@ -45,4 +45,26 @@ from .components.ycb.MJ057_racquetball.racquetball import *
 from .components.ycb.MJ058_golf_ball.golf_ball import *
 from .components.ycb.MJ059_chain.chain import *
 from .components.ycb.MJ061_foam_brick.foam_brick import *
-
+from .components.ycb.MJ063_a_marbles.marbles_a import *
+from .components.ycb.MJ063_b_marbles.marbles_b import *
+from .components.ycb.MJ065_a_cups.cups_a import *
+from .components.ycb.MJ065_b_cups.cups_b import *
+from .components.ycb.MJ065_c_cups.cups_c import *
+from .components.ycb.MJ065_d_cups.cups_d import *
+from .components.ycb.MJ065_e_cups.cups_e import *
+from .components.ycb.MJ065_f_cups.cups_f import *
+from .components.ycb.MJ065_h_cups.cups_h import *
+from .components.ycb.MJ065_j_cups.cups_j import *
+from .components.ycb.MJ070_b_colored_wood_blocks.colored_wood_blocks import *
+from .components.ycb.MJ071_nine_hole_peg_test.nine_hole_peg import *
+from .components.ycb.MJ072_a_toy_airplane.airplane_a import *
+from .components.ycb.MJ072_b_toy_airplane.airplane_b import *
+from .components.ycb.MJ072_c_toy_airplane.airplane_c import *
+from .components.ycb.MJ072_d_toy_airplane.airplane_d import *
+from .components.ycb.MJ073_a_lego_duplo.lego_a import *
+from .components.ycb.MJ073_b_lego_duplo.lego_b import *
+from .components.ycb.MJ073_c_lego_duplo.lego_c import *
+from .components.ycb.MJ073_d_lego_duplo.lego_d import *
+from .components.ycb.MJ073_e_lego_duplo.lego_e import *
+from .components.ycb.MJ073_f_lego_duplo.lego_f import *
+from .components.ycb.MJ073_g_lego_duplo.lego_g import *

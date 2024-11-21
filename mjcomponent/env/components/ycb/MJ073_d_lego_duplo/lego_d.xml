@@ -1,0 +1,103 @@
+<mujoco model="lego_d">
+  <compiler angle="radian" meshdir="assets" texturedir="assets"/>
+    <default>
+        <default class="ycb_col">
+            <geom contype="1" class="ycb_col" conaffinity="1" group="3" rgba=".4 .5 .6 1"/>
+        </default>
+        <default class="ycb_viz">
+            <geom contype="0" class="ycb_col" conaffinity="0" type="mesh" mass="0"/>
+        </default>
+    </default>
+  <asset>
+    <texture type="2d" name="d_lego_duplo_tex" file="texture_map.png"/>
+    <material name="d_lego_duplo_mat" texture="d_lego_duplo_tex" specular="0.5" shininess="0.5"/>
+    <mesh file="textured.obj" name="d_lego_duplo"/>
+    <mesh file="textured_collision_0.obj" name="d_lego_duplo_collision_0"/>
+    <mesh file="textured_collision_1.obj" name="d_lego_duplo_collision_1"/>
+    <mesh file="textured_collision_2.obj" name="d_lego_duplo_collision_2"/>
+    <mesh file="textured_collision_3.obj" name="d_lego_duplo_collision_3"/>
+    <mesh file="textured_collision_4.obj" name="d_lego_duplo_collision_4"/>
+    <mesh file="textured_collision_5.obj" name="d_lego_duplo_collision_5"/>
+    <mesh file="textured_collision_6.obj" name="d_lego_duplo_collision_6"/>
+    <mesh file="textured_collision_7.obj" name="d_lego_duplo_collision_7"/>
+    <mesh file="textured_collision_8.obj" name="d_lego_duplo_collision_8"/>
+    <mesh file="textured_collision_9.obj" name="d_lego_duplo_collision_9"/>
+    <mesh file="textured_collision_10.obj" name="d_lego_duplo_collision_10"/>
+    <mesh file="textured_collision_11.obj" name="d_lego_duplo_collision_11"/>
+    <mesh file="textured_collision_12.obj" name="d_lego_duplo_collision_12"/>
+    <mesh file="textured_collision_13.obj" name="d_lego_duplo_collision_13"/>
+    <mesh file="textured_collision_14.obj" name="d_lego_duplo_collision_14"/>
+    <mesh file="textured_collision_15.obj" name="d_lego_duplo_collision_15"/>
+    <mesh file="textured_collision_16.obj" name="d_lego_duplo_collision_16"/>
+    <mesh file="textured_collision_17.obj" name="d_lego_duplo_collision_17"/>
+    <mesh file="textured_collision_18.obj" name="d_lego_duplo_collision_18"/>
+    <mesh file="textured_collision_19.obj" name="d_lego_duplo_collision_19"/>
+    <mesh file="textured_collision_20.obj" name="d_lego_duplo_collision_20"/>
+    <mesh file="textured_collision_21.obj" name="d_lego_duplo_collision_21"/>
+    <mesh file="textured_collision_22.obj" name="d_lego_duplo_collision_22"/>
+    <mesh file="textured_collision_23.obj" name="d_lego_duplo_collision_23"/>
+    <mesh file="textured_collision_24.obj" name="d_lego_duplo_collision_24"/>
+    <mesh file="textured_collision_25.obj" name="d_lego_duplo_collision_25"/>
+    <mesh file="textured_collision_26.obj" name="d_lego_duplo_collision_26"/>
+    <mesh file="textured_collision_27.obj" name="d_lego_duplo_collision_27"/>
+    <mesh file="textured_collision_28.obj" name="d_lego_duplo_collision_28"/>
+    <mesh file="textured_collision_29.obj" name="d_lego_duplo_collision_29"/>
+    <mesh file="textured_collision_30.obj" name="d_lego_duplo_collision_30"/>
+    <mesh file="textured_collision_31.obj" name="d_lego_duplo_collision_31"/>
+    <mesh file="textured_collision_32.obj" name="d_lego_duplo_collision_32"/>
+    <mesh file="textured_collision_33.obj" name="d_lego_duplo_collision_33"/>
+    <mesh file="textured_collision_34.obj" name="d_lego_duplo_collision_34"/>
+    <mesh file="textured_collision_35.obj" name="d_lego_duplo_collision_35"/>
+    <mesh file="textured_collision_36.obj" name="d_lego_duplo_collision_36"/>
+    <mesh file="textured_collision_37.obj" name="d_lego_duplo_collision_37"/>
+    <mesh file="textured_collision_38.obj" name="d_lego_duplo_collision_38"/>
+    <mesh file="textured_collision_39.obj" name="d_lego_duplo_collision_39"/>
+    <mesh file="textured_collision_40.obj" name="d_lego_duplo_collision_40"/>
+    <mesh file="textured_collision_41.obj" name="d_lego_duplo_collision_41"/>
+  </asset>
+  <worldbody>
+      <geom material="d_lego_duplo_mat" mesh="d_lego_duplo" class="ycb_viz"/>
+      <geom mesh="d_lego_duplo_collision_0" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.00037789179250923916" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="d_lego_duplo_collision_1" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.00029849623796985827" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="d_lego_duplo_collision_2" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.00019993106595398382" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="d_lego_duplo_collision_3" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.00040669732635078876" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="d_lego_duplo_collision_4" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0003059690166397652" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="d_lego_duplo_collision_5" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0003076543457155097" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="d_lego_duplo_collision_6" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.00035243834499568323" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="d_lego_duplo_collision_7" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="3.2337856516583975e-05" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="d_lego_duplo_collision_8" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="9.038884523355184e-05" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="d_lego_duplo_collision_9" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.00043167848158589926" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="d_lego_duplo_collision_10" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.00019107882858542742" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="d_lego_duplo_collision_11" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.00013049205729507177" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="d_lego_duplo_collision_12" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0006340759320379879" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="d_lego_duplo_collision_13" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.00040309967038988957" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="d_lego_duplo_collision_14" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="6.660149851908044e-05" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="d_lego_duplo_collision_15" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0003698634391632748" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="d_lego_duplo_collision_16" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.00014678355617340566" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="d_lego_duplo_collision_17" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.00019479581794559536" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="d_lego_duplo_collision_18" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="6.357263664540838e-06" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="d_lego_duplo_collision_19" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="5.8146385075907774e-05" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="d_lego_duplo_collision_20" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="1.7702077993845107e-05" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="d_lego_duplo_collision_21" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="6.417247597714228e-05" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="d_lego_duplo_collision_22" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="4.0257043401322844e-05" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="d_lego_duplo_collision_23" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="4.6865120779432435e-05" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="d_lego_duplo_collision_24" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="1.7158951273986565e-05" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="d_lego_duplo_collision_25" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="1.0539315760576764e-05" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="d_lego_duplo_collision_26" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="1.3492450324116463e-05" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="d_lego_duplo_collision_27" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="1.9761054760073652e-05" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="d_lego_duplo_collision_28" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="1.5110034798252085e-05" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="d_lego_duplo_collision_29" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="1.1533280132403552e-05" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="d_lego_duplo_collision_30" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0005406408499610432" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="d_lego_duplo_collision_31" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="7.038123137055705e-05" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="d_lego_duplo_collision_32" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0001308064494848667" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="d_lego_duplo_collision_33" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.00016466069847318485" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="d_lego_duplo_collision_34" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0001683520256111118" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="d_lego_duplo_collision_35" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.00017510888748962624" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="d_lego_duplo_collision_36" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="3.317140479423738e-05" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="d_lego_duplo_collision_37" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="2.403638155546736e-05" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="d_lego_duplo_collision_38" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="1.53705853248027e-05" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="d_lego_duplo_collision_39" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="1.1581630432578601e-05" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="d_lego_duplo_collision_40" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="2.3480768581816814e-05" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="d_lego_duplo_collision_41" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="1.1039519398510742e-05" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+  </worldbody>
+</mujoco>

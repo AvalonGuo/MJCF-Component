@@ -1,0 +1,83 @@
+<mujoco model="airplane_c">
+  <compiler angle="radian" meshdir="assets" texturedir="assets"/>
+    <default>
+        <default class="ycb_col">
+            <geom contype="1" conaffinity="1" group="3" rgba=".4 .5 .6 1"/>
+        </default>
+        <default class="ycb_viz">
+            <geom contype="0" conaffinity="0" type="mesh" mass="0"/>
+        </default>
+    </default>
+  <asset>
+    <texture type="2d" name="c_toy_airplane_tex" file="texture_map.png"/>
+    <material name="c_toy_airplane_mat" texture="c_toy_airplane_tex" specular="0.5" shininess="0.5"/>
+    <mesh file="textured.obj" name="c_toy_airplane"/>
+    <mesh file="textured_collision_0.obj" name="c_toy_airplane_collision_0"/>
+    <mesh file="textured_collision_1.obj" name="c_toy_airplane_collision_1"/>
+    <mesh file="textured_collision_2.obj" name="c_toy_airplane_collision_2"/>
+    <mesh file="textured_collision_3.obj" name="c_toy_airplane_collision_3"/>
+    <mesh file="textured_collision_4.obj" name="c_toy_airplane_collision_4"/>
+    <mesh file="textured_collision_5.obj" name="c_toy_airplane_collision_5"/>
+    <mesh file="textured_collision_6.obj" name="c_toy_airplane_collision_6"/>
+    <mesh file="textured_collision_7.obj" name="c_toy_airplane_collision_7"/>
+    <mesh file="textured_collision_8.obj" name="c_toy_airplane_collision_8"/>
+    <mesh file="textured_collision_9.obj" name="c_toy_airplane_collision_9"/>
+    <mesh file="textured_collision_10.obj" name="c_toy_airplane_collision_10"/>
+    <mesh file="textured_collision_11.obj" name="c_toy_airplane_collision_11"/>
+    <mesh file="textured_collision_12.obj" name="c_toy_airplane_collision_12"/>
+    <mesh file="textured_collision_13.obj" name="c_toy_airplane_collision_13"/>
+    <mesh file="textured_collision_14.obj" name="c_toy_airplane_collision_14"/>
+    <mesh file="textured_collision_15.obj" name="c_toy_airplane_collision_15"/>
+    <mesh file="textured_collision_16.obj" name="c_toy_airplane_collision_16"/>
+    <mesh file="textured_collision_17.obj" name="c_toy_airplane_collision_17"/>
+    <mesh file="textured_collision_18.obj" name="c_toy_airplane_collision_18"/>
+    <mesh file="textured_collision_19.obj" name="c_toy_airplane_collision_19"/>
+    <mesh file="textured_collision_20.obj" name="c_toy_airplane_collision_20"/>
+    <mesh file="textured_collision_21.obj" name="c_toy_airplane_collision_21"/>
+    <mesh file="textured_collision_22.obj" name="c_toy_airplane_collision_22"/>
+    <mesh file="textured_collision_23.obj" name="c_toy_airplane_collision_23"/>
+    <mesh file="textured_collision_24.obj" name="c_toy_airplane_collision_24"/>
+    <mesh file="textured_collision_25.obj" name="c_toy_airplane_collision_25"/>
+    <mesh file="textured_collision_26.obj" name="c_toy_airplane_collision_26"/>
+    <mesh file="textured_collision_27.obj" name="c_toy_airplane_collision_27"/>
+    <mesh file="textured_collision_28.obj" name="c_toy_airplane_collision_28"/>
+    <mesh file="textured_collision_29.obj" name="c_toy_airplane_collision_29"/>
+    <mesh file="textured_collision_30.obj" name="c_toy_airplane_collision_30"/>
+    <mesh file="textured_collision_31.obj" name="c_toy_airplane_collision_31"/>
+  </asset>
+  <worldbody>
+      <geom material="c_toy_airplane_mat" mesh="c_toy_airplane" class="ycb_viz"/>
+      <geom mesh="c_toy_airplane_collision_0" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.004360130045524942" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="c_toy_airplane_collision_1" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.00602465290006309" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="c_toy_airplane_collision_2" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0023449898444165827" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="c_toy_airplane_collision_3" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0018310978793873737" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="c_toy_airplane_collision_4" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0016024349527444472" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="c_toy_airplane_collision_5" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0032852488987648518" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="c_toy_airplane_collision_6" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0015924790868842961" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="c_toy_airplane_collision_7" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.002565413609045229" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="c_toy_airplane_collision_8" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.004425329711285817" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="c_toy_airplane_collision_9" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.002078563215990939" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="c_toy_airplane_collision_10" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0017902808421312222" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="c_toy_airplane_collision_11" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.001637225975675892" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="c_toy_airplane_collision_12" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0011995665774515597" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="c_toy_airplane_collision_13" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0004906174888028363" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="c_toy_airplane_collision_14" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0025512726037889904" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="c_toy_airplane_collision_15" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0005056538600777103" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="c_toy_airplane_collision_16" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0005495603453991493" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="c_toy_airplane_collision_17" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0002654065621315671" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="c_toy_airplane_collision_18" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.00037454661256185293" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="c_toy_airplane_collision_19" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.001431429043682421" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="c_toy_airplane_collision_20" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0009102648771895374" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="c_toy_airplane_collision_21" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0009990321856815736" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="c_toy_airplane_collision_22" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0013551740856909186" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="c_toy_airplane_collision_23" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0012248348366435185" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="c_toy_airplane_collision_24" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.00024643231357361183" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="c_toy_airplane_collision_25" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.00065287895893497" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="c_toy_airplane_collision_26" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0008564407404631526" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="c_toy_airplane_collision_27" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0003891257027089628" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="c_toy_airplane_collision_28" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0005364842291988995" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="c_toy_airplane_collision_29" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.00025936829403399247" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="c_toy_airplane_collision_30" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.000676787602172142" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="c_toy_airplane_collision_31" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.0009872761178979486" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+  </worldbody>
+</mujoco>

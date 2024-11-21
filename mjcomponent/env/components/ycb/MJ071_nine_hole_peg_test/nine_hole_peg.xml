@@ -1,0 +1,23 @@
+<mujoco model="nine_hole_peg">
+  <compiler angle="radian" meshdir="assets" texturedir="assets"/>
+    <default>
+        <default class="ycb_col">
+            <geom contype="1" conaffinity="1" group="3" rgba=".4 .5 .6 1"/>
+        </default>
+        <default class="ycb_viz">
+            <geom contype="0" conaffinity="0" type="mesh" mass="0"/>
+        </default>
+    </default>
+  <asset>
+    <texture type="2d" name="nine_hole_peg_test_tex" file="texture_map.png"/>
+    <material name="nine_hole_peg_test_mat" texture="nine_hole_peg_test_tex" specular="0.5" shininess="0.5"/>
+    <mesh file="textured.obj" name="nine_hole_peg_test"/>
+    <mesh file="textured_collision_0.obj" name="nine_hole_peg_test_collision_0"/>
+    <mesh file="textured_collision_1.obj" name="nine_hole_peg_test_collision_1"/>
+  </asset>
+  <worldbody>
+      <geom material="nine_hole_peg_test_mat" mesh="nine_hole_peg_test" class="ycb_viz"/>
+      <geom mesh="nine_hole_peg_test_collision_0" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="0.022392242834641075" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+      <geom mesh="nine_hole_peg_test_collision_1" class="ycb_col" conaffinity="1" condim="4" friction="0.1 0.1 0.1" mass="1.4126077571653588" rgba="1 1 1 1" solimp="0.99 0.99 0.01" solref=".001 0.1" type="mesh" group="3"/>
+  </worldbody>
+</mujoco>
